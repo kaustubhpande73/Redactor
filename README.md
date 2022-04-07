@@ -65,13 +65,13 @@ Date - For this function, I have used the nltk library to identify the DATA enti
     doc=nlp(text)
     text = re.sub('\n',' ',text)
     text = re.sub('\t',' ',text)
-#    """I tried using regex, but it won't capture the right dates, so used entity label to capture dates.
+<!-- #    """I tried using regex, but it won't capture the right dates, so used entity label to capture dates.
  #      It is not perfect but captures most dates"""
 #     regex_date = '(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d'
 #     date = re.findall(regex_date,text)
 #     for i in text:
 #         for j in date:
-#             j=j.replace(i,'\u2588'*len(i))
+#             j=j.replace(i,'\u2588'*len(i)) -->
     for ent in doc.ents:
         print(ent.text, ent.start_char, ent.end_char, ent.label_)
         if ent.label_=='DATE':
@@ -107,13 +107,13 @@ Address - For this I have used regular expression to identify the addresses and 
         text = text.replace(i,'\u2588'*len(i))
     
 
-# for ent in doc.ents:
+<!-- # for ent in doc.ents:
 #         #print(ent.text, ent.start_char, ent.end_char, ent.label_)
 #         if ent.label_=='FAC':
 #             text=text.replace(ent.text,'\u2588'*len(ent.text))
 
-
-Concept - This function,  takes one word or phrase that represents a concept and identifies it within the text.
+ -->
+#Concept - This function,  takes one word or phrase that represents a concept and identifies it within the text.
       
       def concepts(text,concept):
 
