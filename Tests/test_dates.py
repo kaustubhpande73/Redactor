@@ -33,4 +33,4 @@ def date(data):
             #stats.append([entity.text,len(entity.text),'Date'])
             text=text.replace(ent.text,'\u2588'*len(ent.text))
     return text
-        
+    assert text != None    
