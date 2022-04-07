@@ -149,6 +149,15 @@ Concept - This function,  takes one word or phrase that represents a concept and
     return sen_list
    
 
+###Important Bugs and run and assumptions:
+1. The phone number format I used is ###-###-####. 
+2. The address function may not give accurate results. I used two approaches, but have gone with regex approach rather than entity approach.
+3. For output, I have used mainly Jupyter Notebooks to verify my results. 
+4. I have added the sample file of which I run the code - "sample.txt"
+5. I was unable to used glob and emplement the stat function
+
+
+
 Links for references used :
 1. https://towardsdatascience.com/named-entity-recognition-with-nltk-and-spacy-8c4a7d88e7das
 
