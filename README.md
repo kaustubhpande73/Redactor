@@ -26,6 +26,7 @@ Names - to redact names I have used nltk library to identify entities which are 
     return text
 
 Testing it with sample data  = "David Fincher should release the season 3 on Mindhunter"
+
 The output recieved = █████████████ should release the season 3 of ██████████
 
 Phone - This funtion redacts the phone number for the document. I have used regular expression to identify the phone numbers from the text and replace them with them with \u2588 character. It redacts numbers in the format ###-###-####.
@@ -113,7 +114,7 @@ Address - For this I have used regular expression to identify the addresses and 
 #             text=text.replace(ent.text,'\u2588'*len(ent.text))
 
  -->
-#Concept - This function,  takes one word or phrase that represents a concept and identifies it within the text.
+Concept - This function,  takes one word or phrase that represents a concept and identifies it within the text.
       
       def concepts(text,concept):
 
