@@ -30,7 +30,7 @@ def date(data):
     for ent in doc.ents:
         print(ent.text, ent.start_char, ent.end_char, ent.label_)
         if ent.label_=='DATE':
-            #stats.append([entity.text,len(entity.text),'Date'])
+            
             text=text.replace(ent.text,'\u2588'*len(ent.text))
     return text
     assert text != None    
