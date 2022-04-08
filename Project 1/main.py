@@ -2,14 +2,14 @@ import project1
 import sys
 
 
-  raw_file = open('sample.txt')
-  data = raw_file.read()
-  list=[]
-  list=sys.argv
+raw_file = open('sample.txt')
+data = raw_file.read()
+list=[]
+list=sys.argv
 #     for i in files:
 #     File = open(i) 
 #     data = File.read()
-    for i in range(len(list)):
+for i in range(len(list)):
         if (list[i] == '--names'):
             data=Names(data)
         elif (list[i] == '--phones'):
@@ -22,3 +22,7 @@ import sys
             data=gender(data)
         elif (list[i] == '--concept'):
             data=concepts(data,list[i+1])
+        elif list[i] == '--output':
+            file=open(i+'.redacted.txt',"w")
+            file.write(data)
+                
