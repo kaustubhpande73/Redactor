@@ -24,6 +24,7 @@ def address(data):
     for i in gender:
         text = text.replace(i,'\u2588'*len(i))
     return text
+    assert text != None    
   
 
 # for ent in doc.ents:
