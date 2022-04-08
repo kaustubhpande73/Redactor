@@ -155,6 +155,7 @@ Concept - This function,  takes one word or phrase that represents a concept and
 3. For output, I have used mainly Jupyter Notebooks to verify my results. 
 4. I have added the sample file of which I run the code - "sample.txt"
 5. I was unable to used glob and emplement the stat function
+6. My main file has bugs. Running all function tests would give a preferred output.
 
 
 
