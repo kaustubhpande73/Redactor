@@ -13,7 +13,7 @@ import sys
 nlp=spacy.blank("en")
 nlp =spacy.load("en_core_web_sm")
 
-data = "my birthday is on 19 Nov 1996" 
+data = "The year is 2002"" 
 
 def date(data):
     text = data
