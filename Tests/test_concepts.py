@@ -13,7 +13,7 @@ import sys
 nlp=spacy.blank("en")
 nlp =spacy.load("en_core_web_sm")
 
-
+#concepts("David is a nice guy. He produces great movies. But he has not released any for a long time now. Its time that he did", 'good')
 
 def concepts(text,concept):
 
@@ -46,3 +46,4 @@ def concepts(text,concept):
                     sen_list.append(sent[line])
 
     return sen_list
+    assert text != None 
