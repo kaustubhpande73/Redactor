@@ -7,3 +7,4 @@
 * Missing Stats - I could not add the stat function first time. This time I have stored them as a dataframe, where it first redacted words, length and type.
 * File names not re-assigned correctly - For this I have renamed the redacted text with .redacted extension.
 * Output files not stored in respective folder - I have added it to the code. It should create .redacted and stats.txt files.
+* I have also added an ipynb and pdf file of the code and outputs I got on jupyter notebook for reference
