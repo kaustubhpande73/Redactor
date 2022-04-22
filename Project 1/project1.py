@@ -21,7 +21,7 @@ stats=[[]]
 #     File = open(i) 
 #     data = File.read()
             
-def Names(data):
+def names(data):
 # nlp = spacy.load("en_core_web_sm")
 # doc = nlp(data)
 # for ent in doc.ents:
@@ -140,7 +140,7 @@ stats=[[]]
 #     data = File.read()
 for i in range(len(list)):
     if (list[i] == '--names'):
-        data=Names(data)
+        data=names(data)
     elif (list[i] == '--phones'):
         data=email(data)
     elif (list[i] == '--email'):
