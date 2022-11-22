@@ -2,7 +2,7 @@
 
 Kaustubh Pande 
 
-Project Objectives: In this project, we designed a system that accepts plain text documents then detect and redact “sensitive” items. As part of this project, we were asked to redact names, addresses, genders,dates ,phonenumbers and concepts.
+Project Objectives: In this project, I designed a system that accepts plain text documents then detect and redacts “sensitive” items. For this project, I redacted names, addresses, genders,dates ,phonenumbers and concepts.
 
 
 
